@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about_dev"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_about_developer" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_message_for_teacher"
+                android:icon="@drawable/ic_bookmark_black_24dp"
+                android:title="@string/menu_message_for_teacher" />
+            <item
+                android:id="@+id/nav_questions_for_teacher"
+                android:icon="@drawable/ic_question"
+                android:title="@string/menu_questions_for_teacher" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_feedback" />
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>

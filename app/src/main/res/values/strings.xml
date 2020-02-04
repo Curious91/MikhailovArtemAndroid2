@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MikhailovArtemAndroid2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="teacher">Рыбалка Владимир</string>
+    <string name="course">Android 2. Продвинутый уровень.</string>
+
+    <string name="menu_about_developer">О разработчике</string>
+
+    <string name="menu_message_for_teacher">Сообщение учителю</string>
+    <string name="menu_questions_for_teacher">Вопросы учителю</string>
+    <string name="menu_feedback">Форма обратной связи</string>
+
+    <string name="text_about_developer">Свой путь в программировании начинал с написания тест-кейсов на Java, с 2014 года перешел на разработку под Android. Есть рабочие проекты в Google Play. Сейчас я Senior Android и iOS developer в компании Socialboards.
+У меня два высших образования: первое — экономическое, второе — по программной инженерии. Большой опыт преподавания: вел курсы по азам компьютерного дела, программированию на C.</string>
+    <string name="text_message_for_teacher">Здравствуйте, Владимир. Сегодняшнее дз я сделал за несколько часов сегодня, раньше руки не дошли к сожалению.
+    по поводу моего android образования: я прошел первый курс андроида на geekbrains примерно полтора года назад, возможно за это время программа поменялась.
+    на 1м курсе мы делали вместо погодного приложения из методичек, приложение о тренировках.</string>
+    <string name="text_questions_for_teacher">1. есть ли телеграмм канал?
+    2. нужно ли было тут реализовывать погодное приложение или достаточно того, о чем попросили в дз?</string>
+    <string name="text_feedback">Надеюсь, я послушаю ваш урок сегодня:)</string>
+
+</resources>

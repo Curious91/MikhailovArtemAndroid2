@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_about_dev">
+
+    <fragment
+        android:id="@+id/nav_about_dev"
+        android:name="com.example.mikhailovartemandroid2.ui.about_developer.about_developer"
+        android:label="@string/menu_about_developer"
+        tools:layout="@layout/about_developer_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_message_for_teacher"
+        android:name="com.example.mikhailovartemandroid2.ui.message_for_teacher.message_for_teacher"
+        android:label="@string/menu_message_for_teacher"
+        tools:layout="@layout/message_for_teacher_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_questions_for_teacher"
+        android:name="com.example.mikhailovartemandroid2.ui.questions_for_teacher.questions_for_teacher"
+        android:label="@string/menu_questions_for_teacher"
+        tools:layout="@layout/questions_for_teacher_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_feedback"
+        android:name="com.example.mikhailovartemandroid2.ui.feedback.feedback"
+        android:label="@string/menu_feedback"
+        tools:layout="@layout/feedback_fragment"/>
+
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.mikhailovartemandroid2.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.mikhailovartemandroid2.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+</navigation>
